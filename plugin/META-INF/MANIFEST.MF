@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Ant_Vis
+Bundle-SymbolicName: org.ant_vis;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: org.ant_vis.main.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ org.eclipse.ui.ide;bundle-version="3.6.0",
+ org.eclipse.ant.ui;bundle-version="3.5.0",
+ org.eclipse.jface.text;bundle-version="3.6.0",
+ org.eclipse.ui.editors;bundle-version="3.6.0",
+ org.eclipse.zest.core;bundle-version="1.2.0",
+ org.eclipse.zest.layouts;bundle-version="1.1.0",
+ org.eclipse.help;bundle-version="3.5.0"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Vendor: Ant Visualization

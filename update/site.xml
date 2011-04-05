@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.ant_vis_1.0.0.jar" id="org.ant_vis" version="1.0.0">
+      <category name="org.ant_vis.category.core"/>
+   </feature>
+   <category-def name="org.ant_vis.category.core" label="Core"/>
+</site>

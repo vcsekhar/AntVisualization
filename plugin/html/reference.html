@@ -1,0 +1,156 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Reference</title>
+</head>
+
+<body>
+<h1>Reference</h1>
+<h2>Context Menu</h2>
+<p>The Ant Visualization plugin provides a context menu entry
+entitled <b>Ant Visualizations</b> to the Eclipse Navigator and Java
+Package Explorer views, which is visible only when a .xml file is
+selected. The context menu entry has two submenus:</p>
+<ul>
+	<li>The <b>Internal</b> menu entry shows the visualization of the
+	selected .xml file in the Ant Visualization view.</li>
+	<li>The <b>External</b> menu entry starts an arbitrary user-defined
+	external program with the selected .xml file as argument (see
+	Preferences section below).</li>
+</ul>
+<h2>Commands</h2>
+<p>The facilities provided by the Ant Visualization plugin are
+implemented using Eclipse command actions. They may be activated through
+a number of mechanisms, e.g. toolbar, keyboard etc. The available
+command actions are as follows:</p>
+<table border="1">
+	<thead>
+		<tr align="center">
+			<th>Toolbar</th>
+			<th>Keyboard</th>
+			<th>Context / Mouse</th>
+			<th>Command</th>
+			<th>Action Performed</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Yes</td>
+			<td>F5</td>
+			<td>Context</td>
+			<td>Reload</td>
+			<td>Fetches the file from disk again, and redraws</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>F6</td>
+			<td>Context</td>
+			<td>Redraw</td>
+			<td>The loaded file is re&nbsp;layed out. Use after targets
+			and/or dependencies have been deleted.</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>Arrow Up/Down/Left/Right</td>
+			<td>&nbsp;</td>
+			<td>Move Up/Down/Left/Right</td>
+			<td>Scrolls image inside viewport as required.</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>Ctrl-Arrow Up/Down/Left/Right</td>
+			<td>&nbsp;</td>
+			<td>Scale Up/Down/Left/Right</td>
+			<td>Adjusts image canvas size as required.</td>
+		</tr>
+		<tr>
+			<td>Yes</td>
+			<td>Page Up/Down</td>
+			<td>&nbsp;</td>
+			<td>Zoom In/Out</td>
+			<td>Adjusts image viewport perspective as required.</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>Enter</td>
+			<td>Double-click</td>
+			<td>Open</td>
+			<td>Opens Ant Editor on selected file positioned at selected target.</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>Del</td>
+			<td>&nbsp;</td>
+			<td>Delete</td>
+			<td>When a target or dependency is selected, removes them from
+			view. N.B. does not alter underlying file.</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>D</td>
+			<td>&nbsp;</td>
+			<td>Descriptions toggle</td>
+			<td>Show/hide all targets' description field.</td>
+		</tr>
+		<tr>
+			<td>Yes</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>Linked</td>
+			<td>Subsequent opening/closing of Ant editor automatically
+			updates Ant view.</td>
+		</tr>
+		<tr>
+			<td>Yes</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>Layout</td>
+			<td>Pull-down to choose an alternate layout algorithm.</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>X</td>
+			<td>&nbsp;</td>
+			<td>Export image</td>
+			<td>Show standard file save dialog to export visualization to
+			.png file.</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>Ctrl-C</td>
+			<td>&nbsp;</td>
+			<td>Copy image</td>
+			<td>Send image visualization to clipboard: it may then be pasted
+			into Word, GIMP etc.</td>
+		</tr>
+		<tr>
+			<td>Yes</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>Clear</td>
+			<td>Remove image visualization.</td>
+		</tr>
+	</tbody>
+</table>
+<p>As can be seen, the method of access to commands is not fully
+comprehensive and consistent, but should be acceptable in practice.</p>
+<p>In the view window, Ant target nodes may be selected with the
+mouse and dragged to new locations to clarify relationships. However,
+their original positions will be restored in the event of a reload or
+redraw action.
+Note also multiple items may be selected via successive ctrl-click mouse operations.</p>
+<h2>Preferences</h2>
+<p>The Ant Visualization plugin has a preference page, accessible
+via menu <b>Window &rarr; Preferences &rarr; Ant &rarr;
+Visualization</b>. On that page, the program and argument syntax are
+specified for the External visualization context menu entry (see above).
+The token string <b>%f</b> is substituted by the selected file's fully
+qualified path and filename.</p>
+<h2>Implementation</h2>
+The Ant Visualization plugin uses the Eclipse GEF Zest component for the
+presentation of graphical information: see
+<a href="http://www.eclipse.org/gef/zest/">here</a> for further background.
+</body>
+</html>

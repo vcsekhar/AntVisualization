@@ -1,0 +1,2 @@
+https://bugs.eclipse.org/bugs/show_bug.cgi?id=215040
+https://bugs.eclipse.org/bugs/show_bug.cgi?id=154579

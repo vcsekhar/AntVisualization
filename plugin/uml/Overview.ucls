@@ -1,0 +1,275 @@
+<class-diagram version="0.9.86" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class corner="BOTTOM_RIGHT" language="java" name="org.ant_vis.views.AntGraphViewer" project="Ant Vis Plugin" 
+    file="/Ant Vis Plugin/source/org/ant_vis/views/AntGraphViewer.java" binary="false">    
+    <position x="-691" y="487" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="false" private="false"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <enumeration corner="BOTTOM_RIGHT" language="java" name="org.ant_vis.views.AntGraphViewer.LayoutAlgorithmOption" 
+    project="Ant Vis Plugin" file="/Ant Vis Plugin/source/org/ant_vis/views/AntGraphViewer.java" binary="false">    
+    <position x="-682" y="648" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="false" private="false"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </enumeration>  
+  <class corner="BOTTOM_RIGHT" language="java" name="org.ant_vis.views.AntEditorTracker" project="Ant Vis Plugin" 
+    file="/Ant Vis Plugin/source/org/ant_vis/views/AntEditorTracker.java" binary="false">    
+    <position x="-1039" y="559" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="false" private="false"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="org.ant_vis.views.AntView" project="Ant Vis Plugin" 
+    file="/Ant Vis Plugin/source/org/ant_vis/views/AntView.java" binary="false">    
+    <position x="-1040" y="66" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="false" private="false"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="org.ant_vis.views.MultiCompartmentFigure.InsetBorder" 
+    project="Ant Vis Plugin" file="/Ant Vis Plugin/source/org/ant_vis/views/MultiCompartmentFigure.java" binary="false">    
+    <position x="-178" y="669" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="false" private="false"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="org.ant_vis.views.MultiCompartmentFigure.MultiCompartmentBorder" 
+    project="Ant Vis Plugin" file="/Ant Vis Plugin/source/org/ant_vis/views/MultiCompartmentFigure.java" binary="false">    
+    <position x="-410" y="665" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="false" private="false"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="org.ant_vis.views.MultiCompartmentFigure.SeparatedInsetBorder" 
+    project="Ant Vis Plugin" file="/Ant Vis Plugin/source/org/ant_vis/views/MultiCompartmentFigure.java" binary="false">    
+    <position x="-67" y="786" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="false" private="false"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="org.ant_vis.views.MultiCompartmentFigure" project="Ant Vis Plugin" 
+    file="/Ant Vis Plugin/source/org/ant_vis/views/MultiCompartmentFigure.java" binary="false">    
+    <position x="-264" y="545" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="false" private="false"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="org.ant_vis.model.AntDepModel" project="Ant Vis Plugin" 
+    file="/Ant Vis Plugin/source/org/ant_vis/model/AntDepModel.java" binary="false">    
+    <position x="-680" y="-44" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="false" private="false"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="org.ant_vis.model.AntFigureProvider" project="Ant Vis Plugin" 
+    file="/Ant Vis Plugin/source/org/ant_vis/model/AntFigureProvider.java" binary="false">    
+    <position x="-661" y="205" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="false" private="false"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="org.ant_vis.model.AntSelection" project="Ant Vis Plugin" 
+    file="/Ant Vis Plugin/source/org/ant_vis/model/AntSelection.java" binary="false">    
+    <position x="-249" y="393" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="false" private="false"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="org.ant_vis.model.AntTarget" project="Ant Vis Plugin" 
+    file="/Ant Vis Plugin/source/org/ant_vis/model/AntTarget.java" binary="false">    
+    <position x="-267" y="159" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="false" private="false"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="org.ant_vis.model.AntProvider" project="Ant Vis Plugin" 
+    file="/Ant Vis Plugin/source/org/ant_vis/model/AntProvider.java" binary="false">    
+    <position x="-352" y="-94" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="false" private="false"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="org.ant_vis.model.AntItem" project="Ant Vis Plugin" 
+    file="/Ant Vis Plugin/source/org/ant_vis/model/AntItem.java" binary="false">    
+    <position x="-49" y="-65" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="false" private="false"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <association>    
+    <source project="Ant Vis Plugin" name="org.ant_vis.views.AntGraphViewer" 
+      file="/Ant Vis Plugin/source/org/ant_vis/views/AntGraphViewer.java" binary="false" navigable="false">      
+      <attribute name="lastSelection"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="Ant Vis Plugin" name="org.ant_vis.model.AntSelection" 
+      file="/Ant Vis Plugin/source/org/ant_vis/model/AntSelection.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting>    
+    <bendpoint x="1" y="630"/>    
+    <source project="Ant Vis Plugin" name="org.ant_vis.views.MultiCompartmentFigure" 
+      file="/Ant Vis Plugin/source/org/ant_vis/views/MultiCompartmentFigure.java" binary="false"/>    
+    <target project="Ant Vis Plugin" name="org.ant_vis.views.MultiCompartmentFigure.SeparatedInsetBorder" 
+      file="/Ant Vis Plugin/source/org/ant_vis/views/MultiCompartmentFigure.java" binary="false"/>  
+  </nesting>  
+  <association>    
+    <source project="Ant Vis Plugin" name="org.ant_vis.model.AntDepModel" 
+      file="/Ant Vis Plugin/source/org/ant_vis/model/AntDepModel.java" binary="false" navigable="false">      
+      <attribute name="targetMap"/>      
+      <multiplicity minimum="0" maximum="2147483647"/>    
+    </source>    
+    <target project="Ant Vis Plugin" name="org.ant_vis.model.AntTarget" 
+      file="/Ant Vis Plugin/source/org/ant_vis/model/AntTarget.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency>    
+    <source project="Ant Vis Plugin" name="org.ant_vis.views.AntView" 
+      file="/Ant Vis Plugin/source/org/ant_vis/views/AntView.java" binary="false"/>    
+    <target project="Ant Vis Plugin" name="org.ant_vis.model.AntFigureProvider" 
+      file="/Ant Vis Plugin/source/org/ant_vis/model/AntFigureProvider.java" binary="false"/>  
+  </dependency>  
+  <association>    
+    <source project="Ant Vis Plugin" name="org.ant_vis.views.AntEditorTracker" 
+      file="/Ant Vis Plugin/source/org/ant_vis/views/AntEditorTracker.java" binary="false" navigable="false">      
+      <attribute name="antView"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="Ant Vis Plugin" name="org.ant_vis.views.AntView" 
+      file="/Ant Vis Plugin/source/org/ant_vis/views/AntView.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="Ant Vis Plugin" name="org.ant_vis.views.AntView" 
+      file="/Ant Vis Plugin/source/org/ant_vis/views/AntView.java" binary="false" navigable="false">      
+      <attribute name="antGraphViewer"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="Ant Vis Plugin" name="org.ant_vis.views.AntGraphViewer" 
+      file="/Ant Vis Plugin/source/org/ant_vis/views/AntGraphViewer.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting>    
+    <source project="Ant Vis Plugin" name="org.ant_vis.views.MultiCompartmentFigure" 
+      file="/Ant Vis Plugin/source/org/ant_vis/views/MultiCompartmentFigure.java" binary="false"/>    
+    <target project="Ant Vis Plugin" name="org.ant_vis.views.MultiCompartmentFigure.MultiCompartmentBorder" 
+      file="/Ant Vis Plugin/source/org/ant_vis/views/MultiCompartmentFigure.java" binary="false"/>  
+  </nesting>  
+  <nesting>    
+    <source project="Ant Vis Plugin" name="org.ant_vis.views.MultiCompartmentFigure" 
+      file="/Ant Vis Plugin/source/org/ant_vis/views/MultiCompartmentFigure.java" binary="false"/>    
+    <target project="Ant Vis Plugin" name="org.ant_vis.views.MultiCompartmentFigure.InsetBorder" 
+      file="/Ant Vis Plugin/source/org/ant_vis/views/MultiCompartmentFigure.java" binary="false"/>  
+  </nesting>  
+  <association>    
+    <source project="Ant Vis Plugin" name="org.ant_vis.model.AntFigureProvider" 
+      file="/Ant Vis Plugin/source/org/ant_vis/model/AntFigureProvider.java" binary="false" navigable="false">      
+      <attribute name="antGraphViewer"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="Ant Vis Plugin" name="org.ant_vis.views.AntGraphViewer" 
+      file="/Ant Vis Plugin/source/org/ant_vis/views/AntGraphViewer.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency>    
+    <source project="Ant Vis Plugin" name="org.ant_vis.views.AntGraphViewer" 
+      file="/Ant Vis Plugin/source/org/ant_vis/views/AntGraphViewer.java" binary="false"/>    
+    <target project="Ant Vis Plugin" name="org.ant_vis.views.MultiCompartmentFigure" 
+      file="/Ant Vis Plugin/source/org/ant_vis/views/MultiCompartmentFigure.java" binary="false"/>  
+  </dependency>  
+  <association>    
+    <source project="Ant Vis Plugin" name="org.ant_vis.model.AntSelection" 
+      file="/Ant Vis Plugin/source/org/ant_vis/model/AntSelection.java" binary="false" navigable="false">      
+      <attribute name="targets"/>      
+      <multiplicity minimum="0" maximum="2147483647"/>    
+    </source>    
+    <target project="Ant Vis Plugin" name="org.ant_vis.model.AntTarget" 
+      file="/Ant Vis Plugin/source/org/ant_vis/model/AntTarget.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization>    
+    <source project="Ant Vis Plugin" name="org.ant_vis.views.MultiCompartmentFigure.SeparatedInsetBorder" 
+      file="/Ant Vis Plugin/source/org/ant_vis/views/MultiCompartmentFigure.java" binary="false"/>    
+    <target project="Ant Vis Plugin" name="org.ant_vis.views.MultiCompartmentFigure.InsetBorder" 
+      file="/Ant Vis Plugin/source/org/ant_vis/views/MultiCompartmentFigure.java" binary="false"/>  
+  </generalization>  
+  <nesting>    
+    <source project="Ant Vis Plugin" name="org.ant_vis.views.AntGraphViewer" 
+      file="/Ant Vis Plugin/source/org/ant_vis/views/AntGraphViewer.java" binary="false"/>    
+    <target project="Ant Vis Plugin" name="org.ant_vis.views.AntGraphViewer.LayoutAlgorithmOption" 
+      file="/Ant Vis Plugin/source/org/ant_vis/views/AntGraphViewer.java" binary="false"/>  
+  </nesting>  
+  <dependency>    
+    <source project="Ant Vis Plugin" name="org.ant_vis.views.AntGraphViewer" 
+      file="/Ant Vis Plugin/source/org/ant_vis/views/AntGraphViewer.java" binary="false"/>    
+    <target project="Ant Vis Plugin" name="org.ant_vis.model.AntTarget" 
+      file="/Ant Vis Plugin/source/org/ant_vis/model/AntTarget.java" binary="false"/>  
+  </dependency>  
+  <association>    
+    <source project="Ant Vis Plugin" name="org.ant_vis.model.AntProvider" 
+      file="/Ant Vis Plugin/source/org/ant_vis/model/AntProvider.java" binary="false" navigable="false">      
+      <attribute name="antModel"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="Ant Vis Plugin" name="org.ant_vis.model.AntDepModel" 
+      file="/Ant Vis Plugin/source/org/ant_vis/model/AntDepModel.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="Ant Vis Plugin" name="org.ant_vis.views.AntView" 
+      file="/Ant Vis Plugin/source/org/ant_vis/views/AntView.java" binary="false" navigable="false">      
+      <attribute name="antEditorTracker"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="Ant Vis Plugin" name="org.ant_vis.views.AntEditorTracker" 
+      file="/Ant Vis Plugin/source/org/ant_vis/views/AntEditorTracker.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="Ant Vis Plugin" name="org.ant_vis.views.AntView" 
+      file="/Ant Vis Plugin/source/org/ant_vis/views/AntView.java" binary="false" navigable="false">      
+      <attribute name="antDepModel"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="Ant Vis Plugin" name="org.ant_vis.model.AntDepModel" 
+      file="/Ant Vis Plugin/source/org/ant_vis/model/AntDepModel.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization>    
+    <source project="Ant Vis Plugin" name="org.ant_vis.model.AntTarget" 
+      file="/Ant Vis Plugin/source/org/ant_vis/model/AntTarget.java" binary="false"/>    
+    <target project="Ant Vis Plugin" name="org.ant_vis.model.AntItem" 
+      file="/Ant Vis Plugin/source/org/ant_vis/model/AntItem.java" binary="false"/>  
+  </generalization>  
+  <association>    
+    <source project="Ant Vis Plugin" name="org.ant_vis.model.AntFigureProvider" 
+      file="/Ant Vis Plugin/source/org/ant_vis/model/AntFigureProvider.java" binary="false" navigable="false">      
+      <attribute name="antDepModel"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="Ant Vis Plugin" name="org.ant_vis.model.AntDepModel" 
+      file="/Ant Vis Plugin/source/org/ant_vis/model/AntDepModel.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" package="true" initial-value="false" signature="true" visibility="true">    
+    <attributes public="true" package="false" protected="false" private="false"/>    
+    <operations public="true" package="false" protected="false" private="false"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
